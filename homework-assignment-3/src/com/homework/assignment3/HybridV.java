@@ -18,7 +18,6 @@ public class HybridV extends Vehicle{
 		System.out.println("Horsepower: " + getEngine().getHorsepower());
 		System.out.println("Fuel Type: " + getEngine().getFuelType());
 		System.out.println("Battery Capacity: " + getEngine().getBatteryCapacity());
-		
 	}
 
 }

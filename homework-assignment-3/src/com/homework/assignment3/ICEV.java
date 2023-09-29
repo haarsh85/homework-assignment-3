@@ -17,7 +17,6 @@ public class ICEV extends Vehicle{
 		System.out.println("Engine Type: " + getEngine().getEngineType());
 		System.out.println("Horsepower: " + getEngine().getHorsepower());
 		System.out.println("Fuel Type: " + getEngine().getFuelType());
-		
 	}
 	
 
