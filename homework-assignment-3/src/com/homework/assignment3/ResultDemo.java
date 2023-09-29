@@ -22,6 +22,7 @@ public class ResultDemo {
 		//Creating array of Vehicle which contains objects of ICEV, BEV and HybridV
 		Vehicle[] vehicles = {icev, bev, hybridV};
 		
+		//Using showCharacteristics method to demonstrate result
 		for (Vehicle v : vehicles) {
 			v.showCharacteristics();
 			System.out.println();
