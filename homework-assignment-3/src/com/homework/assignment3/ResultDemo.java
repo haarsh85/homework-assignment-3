@@ -12,7 +12,7 @@ public class ResultDemo {
 		//Creating instances for each Engine Type
 		Engine icevEngine = new CombustionEngine("Gasoline", 200, "Petrol");
 		Engine bevEngine = new ElectricEngine("Electric", 150, 80.75);
-		Engine hybridVEngine = new HybridEngine("Hybrid", 180, "Diesel", 60.12);
+		Engine hybridVEngine = new HybridEngine("Hybrid", 180, "Diesel", 90.12);
 		
 		//Creating instances of Vehicle subclasses
 		Vehicle icev = new ICEV(toyota, icevEngine);
